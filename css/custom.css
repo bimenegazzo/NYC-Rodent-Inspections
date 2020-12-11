@@ -1,0 +1,61 @@
+.row {
+    margin-right: -1px;
+    margin-left: -1px;
+}
+#mainRow {
+    width: 100%;
+}
+.dc-chart g.row text {
+    fill: #000000;
+}
+
+.dc-chart .pie-slice {
+    fill: #000000;
+}
+#rowStatic.row {
+    position: static;
+}
+.axis text {
+    font: 10px sans-serif;
+}
+#freezeThis {
+    width: 103%;
+    margin-left: -2%;
+    position: fixed; 
+    z-index: 100;
+    background: #333;   
+    color: #fff;    
+}
+#timeChart {
+    margin-left: 3%;
+}
+#resultChart g.tick text {
+    display: none;
+}
+#resultChart2 g.tick text {
+    display: none;
+}
+#download {
+    text-align: left;
+}
+#paging {
+    text-align: right;
+    margin-bottom: 1%;
+}
+#download {
+    text-align: left;
+    margin-bottom: 1%;
+}
+modal-footer {
+    text-align: center;
+}
+#dc-table-graph th {
+    cursor: pointer;
+    font-size: 12px;
+}
+.dc-table-column {
+    font-size: 12px;
+}
+dc-table-graph thead tr.tableheader #text {
+    font: 12px sans-serif;
+}
