@@ -171,6 +171,12 @@
                 setTimeout(function () {$('#LandingModal').find('button.close').focus();},500);
             }).modal('show');
         });
+        
+        fetch("data/data.json")
+            .then(response => {
+            return response.json();
+            })
+            .then(data => console.log(data));
 
         //Recycled formulas
         var colorScheme = d3.scaleOrdinal()
